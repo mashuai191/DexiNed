@@ -288,8 +288,8 @@ class TestDataset(Dataset):
 class BipedDataset(Dataset):
     train_modes = ['train', 'test', ]
     dataset_types = ['rgbr', ]
-    #data_types = ['aug', ]
-    data_types = ['real', ]
+    data_types = ['aug', ]
+    #data_types = ['real', ]
 
     def __init__(self,
                  data_root,
