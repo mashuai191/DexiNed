@@ -273,7 +273,7 @@ def parse_args():
 
     parser.add_argument('--epochs',
                         type=int,
-                        default=25,
+                        default=10,
                         metavar='N',
                         help='Number of training epochs (default: 25).')
     parser.add_argument('--lr',
@@ -291,11 +291,11 @@ def parse_args():
     #                     help='Learning rate step size.')
     parser.add_argument('--batch_size',
                         type=int,
-                        default=8,
+                        default=2,
                         metavar='B',
                         help='the mini-batch size (default: 8)')
     parser.add_argument('--workers',
-                        default=8,
+                        default=2,
                         type=int,
                         help='The number of workers for the dataloaders.')
     parser.add_argument('--tensorboard',type=bool,
