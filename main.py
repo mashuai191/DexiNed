@@ -291,7 +291,7 @@ def parse_args():
     #                     help='Learning rate step size.')
     parser.add_argument('--batch_size',
                         type=int,
-                        default=2,
+                        default=4,
                         metavar='B',
                         help='the mini-batch size (default: 8)')
     parser.add_argument('--workers',
